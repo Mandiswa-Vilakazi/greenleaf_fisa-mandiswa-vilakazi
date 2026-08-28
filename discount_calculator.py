@@ -6,7 +6,7 @@ def apply_discount(price, quantity):
     total = calculate_total(price, quantity)
     if quantity >= 20:
         total = total * 0.90  # 10% discount
-    elif quantity >= 10:
+    elif quantity >= 20:
         total = total * 0.95  # 5% discount
     return total
 
